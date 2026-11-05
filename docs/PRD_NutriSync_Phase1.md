@@ -3,7 +3,7 @@
 ## DỰ ÁN: NutriSync (Giai đoạn 1 - Food Vision Nutrition Parser)
 * **Tên đề tài:** Nghiên cứu và xây dựng pipeline trích xuất thông tin dinh dưỡng món ăn Việt Nam từ hình ảnh sử dụng mô hình thị giác ngôn ngữ (Food Vision Nutrition Parser)
 * **Trạng thái:** Bản thảo kỹ thuật (Draft)
-* **Thời gian lập:** Tháng 10/2026
+* **Thời gian lập:** Tháng 11/2026
 * **Tài liệu tham khảo:** `Project_Concept_NutriSync.pdf`
 
 ---
@@ -28,7 +28,7 @@ Xây dựng một **Pipeline trích xuất dinh dưỡng bán tự động (Semi
 ### 2.1. Trong phạm vi (In-Scope - Giai đoạn 1)
 * **Frontend Mobile-First Web App:** Cho phép chụp hoặc tải ảnh món ăn từ camera điện thoại.
 * **Quy trình tiền xử lý ảnh:** Tối ưu hóa kích thước, chuyển đổi định dạng WebP để giảm độ trễ upload.
-* **Bộ suy luận VLM có cấu trúc (Structured VLM Engine):** Tích hợp Gemini-2.5-Flash (chính) và cơ chế Fallback sang GPT-4o-mini khi lỗi; ép kiểu đầu ra thông qua JSON Schema / Pydantic.
+* **Bộ suy luận VLM có cấu trúc (Structured VLM Engine):** Tích hợp Gemini-2.5-Flash / Gemini-3.8-Flash (chính) và cơ chế Fallback sang GPT-4o-mini (hoặc model kế nhiệm) khi lỗi; ép kiểu đầu ra thông qua JSON Schema / Pydantic.
 * **Cơ chế phân giải dinh dưỡng 2 tầng (Two-stage Nutrition Resolver):** VLM nhận diện món và thành phần định tính $\rightarrow$ Hệ thống tra cứu bảng công thức chuẩn (Nutrition Reference DB) để suy ra dải calo (Range estimation: min - nominal - max).
 * **Giao diện Human-in-the-loop tinh giản:** Cho phép người dùng điều chỉnh nhanh theo kích thước định tính (Nhỏ / Vừa / Lớn) và bật/tắt các topping thêm.
 * **Cơ sở dữ liệu người dùng:** Lưu trữ lịch sử các bữa ăn trong ngày và thống kê tổng calo/macro (PostgreSQL / SQLite).
@@ -151,7 +151,8 @@ Xây dựng một **Pipeline trích xuất dinh dưỡng bán tự động (Semi
 | **VLM Hallucination về calo:** VLM tự bịa ra số calo phi thực tế cho món Việt. | Cao | **Tách biệt 2 tầng:** VLM chỉ làm nhiệm vụ nhận diện món/thành phần định tính. Calo được tính toán từ bảng chuẩn `nutrition_ref.json`. |
 | **Món nước (phở, bún) chìm dưới đáy:** Không nhìn thấy lượng bún/thịt thực tế. | Cao | Phân loại `soup_dish`, mở rộng dải ước tính lên $\pm 20\%$, hiển thị cảnh báo để người dùng tự điều chỉnh kích thước tô nếu cần. |
 | **Độ trễ mạng 4G/Wifi:** Upload ảnh độ phân giải cao mất nhiều giây. | Trung bình | Nén ảnh WebP $\le 300\text{KB}$ ngay trên trình duyệt trước khi gửi request. |
-| **Thiếu dữ liệu Ground Truth:** Khó đánh giá khoa học cho báo cáo đề tài. | Cao | Xây dựng bộ test set tối thiểu 50 mẫu được cân đo thực tế ngay từ Giai đoạn 0, không dùng dataset có sẵn thiếu nhãn calo. |
+| **Thiếu dữ liệu Ground Truth:** Khó đánh giá khoa học cho báo cáo đề tài. | Cao | Xây dựng bộ test set tối thiểu 60 mẫu được cân đo thực tế ngay từ Giai đoạn 0, không dùng dataset có sẵn thiếu nhãn calo. |
+| **Vòng đời API GPT-4o-mini (Shutdown 01/2027):** Mô hình fallback bị ngừng hoạt động. | Trung bình | Dùng Strategy Pattern và cấu hình tên model qua biến môi trường `.env`, sẵn sàng chuyển đổi sang model kế nhiệm. |
 
 ---
 
