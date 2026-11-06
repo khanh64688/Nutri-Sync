@@ -1,0 +1,2037 @@
+{
+  "version": "1.0.0",
+  "metadata": {
+    "total_dishes": 30,
+    "categories": {
+      "dry_dish": 15,
+      "soup_dish": 12,
+      "snack": 3
+    },
+    "source": "Viện Dinh Dưỡng Quốc Gia (Vietnam Food Composition Tables) & NutriSync FCT Standardization 2026",
+    "portion_guidelines": {
+      "small": 0.8,
+      "standard": 1.0,
+      "large": 1.3
+    },
+    "tolerance_rules": {
+      "dry_dish": 12.0,
+      "soup_dish": 20.0,
+      "snack": 12.0
+    }
+  },
+  "dishes": [
+    {
+      "dish_id": "com_tam_suon",
+      "dish_name": "Cơm tấm sườn nướng",
+      "dish_type": "dry_dish",
+      "description": "Cơm tấm hạt vỡ kèm sườn heo nướng than mỡ hành, dưa leo, cà chua, đồ chua",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 450,
+        "calories": 620,
+        "macronutrients": {
+          "protein_g": 28.0,
+          "carbs_g": 84.0,
+          "fat_g": 18.0,
+          "fiber_g": 2.5
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_trung_op_la",
+          "name": "Trứng ốp la",
+          "additional_calories": 90,
+          "additional_macronutrients": {
+            "protein_g": 6.5,
+            "carbs_g": 0.5,
+            "fat_g": 7.0
+          }
+        },
+        {
+          "topping_id": "them_cha_trung",
+          "name": "Chả trứng hấp",
+          "additional_calories": 110,
+          "additional_macronutrients": {
+            "protein_g": 7.0,
+            "carbs_g": 3.0,
+            "fat_g": 8.0
+          }
+        },
+        {
+          "topping_id": "them_bi",
+          "name": "Bì heo trộn thính",
+          "additional_calories": 80,
+          "additional_macronutrients": {
+            "protein_g": 8.0,
+            "carbs_g": 2.0,
+            "fat_g": 4.5
+          }
+        },
+        {
+          "topping_id": "them_mo_hanh",
+          "name": "Mỡ hành / Tóp mỡ",
+          "additional_calories": 70,
+          "additional_macronutrients": {
+            "protein_g": 1.0,
+            "carbs_g": 1.0,
+            "fat_g": 7.5
+          }
+        }
+      ],
+      "standard_components": [
+        "cơm tấm",
+        "sườn nướng",
+        "mỡ hành",
+        "dưa leo",
+        "cà chua",
+        "đồ chua",
+        "nước mắm tỏi ớt"
+      ]
+    },
+    {
+      "dish_id": "com_tam_suon_bi_cha",
+      "dish_name": "Cơm tấm sườn bì chả",
+      "dish_type": "dry_dish",
+      "description": "Cơm tấm sườn nướng kèm bì heo thính và chả trứng hấp đầy đủ",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 520,
+        "calories": 780,
+        "macronutrients": {
+          "protein_g": 38.0,
+          "carbs_g": 86.0,
+          "fat_g": 28.0,
+          "fiber_g": 3.0
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_trung_op_la",
+          "name": "Trứng ốp la",
+          "additional_calories": 90,
+          "additional_macronutrients": {
+            "protein_g": 6.5,
+            "carbs_g": 0.5,
+            "fat_g": 7.0
+          }
+        },
+        {
+          "topping_id": "them_suon",
+          "name": "Thêm sườn nướng",
+          "additional_calories": 180,
+          "additional_macronutrients": {
+            "protein_g": 18.0,
+            "carbs_g": 2.0,
+            "fat_g": 11.0
+          }
+        },
+        {
+          "topping_id": "them_mo_hanh",
+          "name": "Mỡ hành tóp mỡ",
+          "additional_calories": 70,
+          "additional_macronutrients": {
+            "protein_g": 1.0,
+            "carbs_g": 1.0,
+            "fat_g": 7.5
+          }
+        }
+      ],
+      "standard_components": [
+        "cơm tấm",
+        "sườn nướng",
+        "bì heo",
+        "chả trứng hấp",
+        "mỡ hành",
+        "đồ chua",
+        "nước mắm chua ngọt"
+      ]
+    },
+    {
+      "dish_id": "com_ga_xoi_mo",
+      "dish_name": "Cơm gà xối mỡ",
+      "dish_type": "dry_dish",
+      "description": "Cơm rang hoặc cơm nấu nước dùng gà ăn kèm đùi gà chiên xối mỡ giòn rụm",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 480,
+        "calories": 720,
+        "macronutrients": {
+          "protein_g": 35.0,
+          "carbs_g": 80.0,
+          "fat_g": 27.0,
+          "fiber_g": 2.0
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_canh_ga",
+          "name": "Thêm cánh gà rán",
+          "additional_calories": 180,
+          "additional_macronutrients": {
+            "protein_g": 15.0,
+            "carbs_g": 3.0,
+            "fat_g": 12.0
+          }
+        },
+        {
+          "topping_id": "them_trung_op_la",
+          "name": "Trứng ốp la",
+          "additional_calories": 90,
+          "additional_macronutrients": {
+            "protein_g": 6.5,
+            "carbs_g": 0.5,
+            "fat_g": 7.0
+          }
+        },
+        {
+          "topping_id": "them_com",
+          "name": "Thêm cơm gà",
+          "additional_calories": 150,
+          "additional_macronutrients": {
+            "protein_g": 3.0,
+            "carbs_g": 32.0,
+            "fat_g": 1.5
+          }
+        }
+      ],
+      "standard_components": [
+        "cơm vàng gà",
+        "đùi gà xối mỡ",
+        "dưa leo",
+        "cà chua",
+        "nước tương tỏi ớt"
+      ]
+    },
+    {
+      "dish_id": "com_rang_dua_bo",
+      "dish_name": "Cơm rang dưa bò",
+      "dish_type": "dry_dish",
+      "description": "Cơm đảo săn giòn xào cùng dưa chua muối và thịt bò xào thơm ngậy",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 450,
+        "calories": 650,
+        "macronutrients": {
+          "protein_g": 26.0,
+          "carbs_g": 82.0,
+          "fat_g": 22.0,
+          "fiber_g": 3.5
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_thit_bo",
+          "name": "Thêm thịt bò xào",
+          "additional_calories": 120,
+          "additional_macronutrients": {
+            "protein_g": 16.0,
+            "carbs_g": 1.0,
+            "fat_g": 5.5
+          }
+        },
+        {
+          "topping_id": "them_trung_op_la",
+          "name": "Trứng ốp la",
+          "additional_calories": 90,
+          "additional_macronutrients": {
+            "protein_g": 6.5,
+            "carbs_g": 0.5,
+            "fat_g": 7.0
+          }
+        },
+        {
+          "topping_id": "them_com_rang",
+          "name": "Thêm cơm rang",
+          "additional_calories": 140,
+          "additional_macronutrients": {
+            "protein_g": 3.0,
+            "carbs_g": 28.0,
+            "fat_g": 2.0
+          }
+        }
+      ],
+      "standard_components": [
+        "cơm rang giòn",
+        "thịt bò xào",
+        "dưa cải muối chua",
+        "hành phi",
+        "nước tương tỏi"
+      ]
+    },
+    {
+      "dish_id": "com_suon_trung_op_la",
+      "dish_name": "Cơm sườn trứng ốp la",
+      "dish_type": "dry_dish",
+      "description": "Cơm trắng hoặc cơm tấm kèm sườn cốt lết nướng than và trứng gà ốp la lòng đào",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 490,
+        "calories": 690,
+        "macronutrients": {
+          "protein_g": 32.0,
+          "carbs_g": 84.0,
+          "fat_g": 23.0,
+          "fiber_g": 2.5
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_cha_trung",
+          "name": "Chả trứng hấp",
+          "additional_calories": 110,
+          "additional_macronutrients": {
+            "protein_g": 7.0,
+            "carbs_g": 3.0,
+            "fat_g": 8.0
+          }
+        },
+        {
+          "topping_id": "them_bi",
+          "name": "Bì heo",
+          "additional_calories": 80,
+          "additional_macronutrients": {
+            "protein_g": 8.0,
+            "carbs_g": 2.0,
+            "fat_g": 4.5
+          }
+        },
+        {
+          "topping_id": "them_mo_hanh",
+          "name": "Mỡ hành tóp mỡ",
+          "additional_calories": 70,
+          "additional_macronutrients": {
+            "protein_g": 1.0,
+            "carbs_g": 1.0,
+            "fat_g": 7.5
+          }
+        }
+      ],
+      "standard_components": [
+        "cơm",
+        "sườn nướng cốt lết",
+        "trứng ốp la",
+        "mỡ hành",
+        "dưa leo",
+        "nước mắm ngọt"
+      ]
+    },
+    {
+      "dish_id": "bun_thit_nuong",
+      "dish_name": "Bún thịt nướng",
+      "dish_type": "dry_dish",
+      "description": "Bún tươi ăn cùng thịt heo nướng sả mè, đậu phộng rang, rau sống và nước mắm chua ngọt",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 430,
+        "calories": 550,
+        "macronutrients": {
+          "protein_g": 25.0,
+          "carbs_g": 72.0,
+          "fat_g": 17.0,
+          "fiber_g": 3.5
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_cha_gio",
+          "name": "Chả giò chiên (1 cuốn)",
+          "additional_calories": 110,
+          "additional_macronutrients": {
+            "protein_g": 4.5,
+            "carbs_g": 10.0,
+            "fat_g": 6.0
+          }
+        },
+        {
+          "topping_id": "them_nem_nuong",
+          "name": "Nem nướng",
+          "additional_calories": 90,
+          "additional_macronutrients": {
+            "protein_g": 7.0,
+            "carbs_g": 2.0,
+            "fat_g": 6.0
+          }
+        },
+        {
+          "topping_id": "them_thit_nuong",
+          "name": "Thêm thịt nướng",
+          "additional_calories": 120,
+          "additional_macronutrients": {
+            "protein_g": 12.0,
+            "carbs_g": 1.5,
+            "fat_g": 7.5
+          }
+        },
+        {
+          "topping_id": "them_dau_phong",
+          "name": "Đậu phộng rang",
+          "additional_calories": 50,
+          "additional_macronutrients": {
+            "protein_g": 2.0,
+            "carbs_g": 1.5,
+            "fat_g": 4.0
+          }
+        }
+      ],
+      "standard_components": [
+        "bún tươi",
+        "thịt heo nướng",
+        "đậu phộng rang",
+        "mỡ hành",
+        "rau thơm",
+        "giá đỗ",
+        "đồ chua",
+        "nước mắm chua ngọt"
+      ]
+    },
+    {
+      "dish_id": "bun_cha_ha_noi",
+      "dish_name": "Bún chả Hà Nội",
+      "dish_type": "dry_dish",
+      "description": "Bún tươi ăn kèm thịt chả băm và chả miếng nướng than hoa ngập trong bát nước mắm chua ngọt đu đủ xanh",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 500,
+        "calories": 620,
+        "macronutrients": {
+          "protein_g": 30.0,
+          "carbs_g": 70.0,
+          "fat_g": 22.0,
+          "fiber_g": 3.0
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_cha_vien",
+          "name": "Thêm chả viên nướng",
+          "additional_calories": 100,
+          "additional_macronutrients": {
+            "protein_g": 9.0,
+            "carbs_g": 1.0,
+            "fat_g": 7.0
+          }
+        },
+        {
+          "topping_id": "them_cha_mieng",
+          "name": "Thêm chả miếng ba chỉ",
+          "additional_calories": 110,
+          "additional_macronutrients": {
+            "protein_g": 8.0,
+            "carbs_g": 0.5,
+            "fat_g": 8.5
+          }
+        },
+        {
+          "topping_id": "them_nem_cua_be",
+          "name": "Nem cua bể (1 chiếc)",
+          "additional_calories": 130,
+          "additional_macronutrients": {
+            "protein_g": 7.0,
+            "carbs_g": 9.0,
+            "fat_g": 7.5
+          }
+        },
+        {
+          "topping_id": "them_bun",
+          "name": "Thêm bún đĩa",
+          "additional_calories": 100,
+          "additional_macronutrients": {
+            "protein_g": 2.0,
+            "carbs_g": 22.0,
+            "fat_g": 0.2
+          }
+        }
+      ],
+      "standard_components": [
+        "bún sợi nhỏ",
+        "chả viên nướng",
+        "chả miếng ba chỉ",
+        "nước mắm giấm đường",
+        "đu đủ cà rốt ngâm",
+        "rau sống kinh giới tía tô"
+      ]
+    },
+    {
+      "dish_id": "bun_dau_mam_tom",
+      "dish_name": "Bún đậu mắm tôm thập cẩm",
+      "dish_type": "dry_dish",
+      "description": "Mẹt bún lá cắt miếng, đậu hũ rán giòn, thịt chân giò luộc, chả cốm ăn kèm mắm tôm đánh sủi bọt",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 480,
+        "calories": 680,
+        "macronutrients": {
+          "protein_g": 32.0,
+          "carbs_g": 65.0,
+          "fat_g": 30.0,
+          "fiber_g": 3.0
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_cha_com",
+          "name": "Chả cốm chiên",
+          "additional_calories": 110,
+          "additional_macronutrients": {
+            "protein_g": 6.0,
+            "carbs_g": 8.0,
+            "fat_g": 6.0
+          }
+        },
+        {
+          "topping_id": "them_thit_chan_gio",
+          "name": "Thịt chân giò luộc",
+          "additional_calories": 130,
+          "additional_macronutrients": {
+            "protein_g": 12.0,
+            "carbs_g": 0.0,
+            "fat_g": 9.0
+          }
+        },
+        {
+          "topping_id": "them_nem_ran",
+          "name": "Nem rán / Ram",
+          "additional_calories": 100,
+          "additional_macronutrients": {
+            "protein_g": 5.0,
+            "carbs_g": 7.0,
+            "fat_g": 6.0
+          }
+        },
+        {
+          "topping_id": "them_dau_ran",
+          "name": "Đậu hũ rán lướt ván",
+          "additional_calories": 80,
+          "additional_macronutrients": {
+            "protein_g": 6.0,
+            "carbs_g": 2.0,
+            "fat_g": 5.5
+          }
+        }
+      ],
+      "standard_components": [
+        "bún lá",
+        "đậu phụ chiên giòn",
+        "thịt bắp giò luộc",
+        "chả cốm",
+        "mắm tôm pha quất ớt",
+        "kinh giới tía tô dưa leo"
+      ]
+    },
+    {
+      "dish_id": "mi_xao_bo",
+      "dish_name": "Mì xào bò rau cải",
+      "dish_type": "dry_dish",
+      "description": "Mì trứng hoặc mì gói xào thịt bò mềm cùng rau cải thìa, hành tây và cà rốt",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 420,
+        "calories": 610,
+        "macronutrients": {
+          "protein_g": 27.0,
+          "carbs_g": 75.0,
+          "fat_g": 21.0,
+          "fiber_g": 4.0
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_thit_bo",
+          "name": "Thịt bò xào thêm",
+          "additional_calories": 120,
+          "additional_macronutrients": {
+            "protein_g": 16.0,
+            "carbs_g": 1.0,
+            "fat_g": 5.5
+          }
+        },
+        {
+          "topping_id": "them_trung_op_la",
+          "name": "Trứng ốp la",
+          "additional_calories": 90,
+          "additional_macronutrients": {
+            "protein_g": 6.5,
+            "carbs_g": 0.5,
+            "fat_g": 7.0
+          }
+        },
+        {
+          "topping_id": "them_vat_mi",
+          "name": "Thêm vắt mì",
+          "additional_calories": 120,
+          "additional_macronutrients": {
+            "protein_g": 3.0,
+            "carbs_g": 22.0,
+            "fat_g": 2.0
+          }
+        }
+      ],
+      "standard_components": [
+        "mì sợi",
+        "thịt bò xào",
+        "rau cải thìa",
+        "hành tây",
+        "cà rốt",
+        "dầu hào sốt tương"
+      ]
+    },
+    {
+      "dish_id": "hu_tieu_kho",
+      "dish_name": "Hủ tiếu khô thập cẩm",
+      "dish_type": "dry_dish",
+      "description": "Hủ tiếu dai trộn sốt hắc xì dầu tỏi phi, thịt băm, xá xíu, tôm, trứng cút kèm chén nước súp riêng",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 440,
+        "calories": 580,
+        "macronutrients": {
+          "protein_g": 26.0,
+          "carbs_g": 76.0,
+          "fat_g": 18.0,
+          "fiber_g": 2.5
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_tom",
+          "name": "Thêm tôm tươi",
+          "additional_calories": 45,
+          "additional_macronutrients": {
+            "protein_g": 9.5,
+            "carbs_g": 0.5,
+            "fat_g": 0.5
+          }
+        },
+        {
+          "topping_id": "them_xa_xiu",
+          "name": "Thịt xá xíu",
+          "additional_calories": 90,
+          "additional_macronutrients": {
+            "protein_g": 10.0,
+            "carbs_g": 2.0,
+            "fat_g": 4.5
+          }
+        },
+        {
+          "topping_id": "them_trung_cut",
+          "name": "Trứng cút luộc (2 quả)",
+          "additional_calories": 40,
+          "additional_macronutrients": {
+            "protein_g": 3.0,
+            "carbs_g": 0.2,
+            "fat_g": 3.0
+          }
+        },
+        {
+          "topping_id": "them_top_mo",
+          "name": "Tóp mỡ giòn tỏi phi",
+          "additional_calories": 70,
+          "additional_macronutrients": {
+            "protein_g": 2.0,
+            "carbs_g": 0.5,
+            "fat_g": 7.0
+          }
+        }
+      ],
+      "standard_components": [
+        "hủ tiếu sợi dai",
+        "thịt nạc băm",
+        "thịt xá xíu",
+        "tôm luộc",
+        "trứng cút",
+        "sốt tương đen trộn",
+        "hành phi tóp mỡ",
+        "hẹ giá đỗ"
+      ]
+    },
+    {
+      "dish_id": "banh_mi_thit",
+      "dish_name": "Bánh mì thịt pate chả lụa",
+      "dish_type": "dry_dish",
+      "description": "Bánh mì giòn kẹp pate gan, chả lụa, thịt nguội, bơ sốt trứng, dưa leo ngò rí và đồ chua",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 220,
+        "calories": 480,
+        "macronutrients": {
+          "protein_g": 20.0,
+          "carbs_g": 55.0,
+          "fat_g": 19.0,
+          "fiber_g": 2.5
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_trung_op_la",
+          "name": "Trứng ốp la",
+          "additional_calories": 90,
+          "additional_macronutrients": {
+            "protein_g": 6.5,
+            "carbs_g": 0.5,
+            "fat_g": 7.0
+          }
+        },
+        {
+          "topping_id": "them_pate",
+          "name": "Thêm pate gan",
+          "additional_calories": 70,
+          "additional_macronutrients": {
+            "protein_g": 3.5,
+            "carbs_g": 1.0,
+            "fat_g": 6.0
+          }
+        },
+        {
+          "topping_id": "them_cha_lua",
+          "name": "Thêm chả lụa",
+          "additional_calories": 60,
+          "additional_macronutrients": {
+            "protein_g": 5.0,
+            "carbs_g": 1.0,
+            "fat_g": 4.0
+          }
+        }
+      ],
+      "standard_components": [
+        "ổ bánh mì",
+        "pate gan",
+        "chả lụa",
+        "thịt nguội đỏ",
+        "bơ trứng",
+        "dưa leo",
+        "đồ chua",
+        "ngò rí nước tương ớt"
+      ]
+    },
+    {
+      "dish_id": "banh_mi_chao",
+      "dish_name": "Bánh mì chảo thập cẩm",
+      "dish_type": "dry_dish",
+      "description": "Chảo gang gồm trứng ốp la, pate cháy cạnh, xíu mại, xúc xích và sốt cà chua kèm ổ bánh mì nóng",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 380,
+        "calories": 650,
+        "macronutrients": {
+          "protein_g": 30.0,
+          "carbs_g": 58.0,
+          "fat_g": 31.0,
+          "fiber_g": 2.0
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_pho_mai",
+          "name": "Phô mai con bò cười",
+          "additional_calories": 65,
+          "additional_macronutrients": {
+            "protein_g": 3.0,
+            "carbs_g": 1.0,
+            "fat_g": 5.5
+          }
+        },
+        {
+          "topping_id": "them_xuc_xich",
+          "name": "Xúc xích chiên",
+          "additional_calories": 90,
+          "additional_macronutrients": {
+            "protein_g": 4.0,
+            "carbs_g": 2.0,
+            "fat_g": 7.5
+          }
+        },
+        {
+          "topping_id": "them_banh_mi",
+          "name": "Thêm 1 ổ bánh mì",
+          "additional_calories": 150,
+          "additional_macronutrients": {
+            "protein_g": 5.0,
+            "carbs_g": 30.0,
+            "fat_g": 1.0
+          }
+        }
+      ],
+      "standard_components": [
+        "trứng ốp la lòng đào",
+        "pate rán",
+        "xíu mại viên sốt cà",
+        "xúc xích",
+        "bánh mì",
+        "dưa leo cà chua"
+      ]
+    },
+    {
+      "dish_id": "banh_xeo",
+      "dish_name": "Bánh xèo miền Tây tôm thịt",
+      "dish_type": "dry_dish",
+      "description": "Vỏ bánh giòn rụm bột gạo cốt dừa nghệ, nhân tôm, thịt ba chỉ, giá đỗ, cuốn bánh tráng rau cải chấm mắm ngọt",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 350,
+        "calories": 550,
+        "macronutrients": {
+          "protein_g": 22.0,
+          "carbs_g": 52.0,
+          "fat_g": 26.0,
+          "fiber_g": 3.0
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_tom_thit",
+          "name": "Thêm nhân tôm thịt",
+          "additional_calories": 90,
+          "additional_macronutrients": {
+            "protein_g": 11.0,
+            "carbs_g": 1.0,
+            "fat_g": 4.5
+          }
+        },
+        {
+          "topping_id": "them_trung",
+          "name": "Thêm trứng đổ kèm vỏ bánh",
+          "additional_calories": 80,
+          "additional_macronutrients": {
+            "protein_g": 6.0,
+            "carbs_g": 0.5,
+            "fat_g": 6.0
+          }
+        }
+      ],
+      "standard_components": [
+        "vỏ bánh xèo giòn",
+        "tôm sú",
+        "thịt ba rọi",
+        "giá đậu xanh",
+        "rau cải xanh rau thơm",
+        "nước mắm chua ngọt"
+      ]
+    },
+    {
+      "dish_id": "banh_cuon_thit",
+      "dish_name": "Bánh cuốn nhân thịt chả quế",
+      "dish_type": "dry_dish",
+      "description": "Bánh tráng mỏng bột gạo hấp cuộn thịt heo băm mộc nhĩ, phủ hành phi giòn, ăn kèm chả quế và nước mắm ấm",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 350,
+        "calories": 430,
+        "macronutrients": {
+          "protein_g": 18.0,
+          "carbs_g": 55.0,
+          "fat_g": 14.0,
+          "fiber_g": 2.0
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_cha_que",
+          "name": "Chả quế rán",
+          "additional_calories": 90,
+          "additional_macronutrients": {
+            "protein_g": 7.0,
+            "carbs_g": 2.0,
+            "fat_g": 6.0
+          }
+        },
+        {
+          "topping_id": "them_trung_hap",
+          "name": "Bánh cuốn trứng lòng đào",
+          "additional_calories": 75,
+          "additional_macronutrients": {
+            "protein_g": 5.5,
+            "carbs_g": 0.5,
+            "fat_g": 5.5
+          }
+        },
+        {
+          "topping_id": "them_nem_chua",
+          "name": "Nem chua",
+          "additional_calories": 60,
+          "additional_macronutrients": {
+            "protein_g": 6.0,
+            "carbs_g": 3.0,
+            "fat_g": 2.0
+          }
+        }
+      ],
+      "standard_components": [
+        "vỏ bánh cuốn gạo",
+        "nhân thịt nạc băm",
+        "mộc nhĩ nấm mèo",
+        "chả quế nướng",
+        "hành phi",
+        "giá trần rau mùi",
+        "nước mắm chấm ấm"
+      ]
+    },
+    {
+      "dish_id": "xoi_xeo",
+      "dish_name": "Xôi xéo đậu xanh hành phi",
+      "dish_type": "dry_dish",
+      "description": "Xôi nếp hương đồ nghệ vàng óng, phủ lớp đậu xanh nghiền mịn, rưới mỡ gà và hành tím phi giòn",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 300,
+        "calories": 520,
+        "macronutrients": {
+          "protein_g": 16.0,
+          "carbs_g": 78.0,
+          "fat_g": 15.0,
+          "fiber_g": 4.5
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_cha_lua",
+          "name": "Chả lụa",
+          "additional_calories": 70,
+          "additional_macronutrients": {
+            "protein_g": 6.0,
+            "carbs_g": 1.0,
+            "fat_g": 4.5
+          }
+        },
+        {
+          "topping_id": "them_thit_kho",
+          "name": "Thịt kho tàu mềm",
+          "additional_calories": 140,
+          "additional_macronutrients": {
+            "protein_g": 11.0,
+            "carbs_g": 1.0,
+            "fat_g": 10.5
+          }
+        },
+        {
+          "topping_id": "them_trung_kho",
+          "name": "Trứng kho nước dừa",
+          "additional_calories": 85,
+          "additional_macronutrients": {
+            "protein_g": 6.0,
+            "carbs_g": 1.0,
+            "fat_g": 6.0
+          }
+        },
+        {
+          "topping_id": "them_ruoc_thit",
+          "name": "Ruốc heo / chà bông",
+          "additional_calories": 50,
+          "additional_macronutrients": {
+            "protein_g": 8.0,
+            "carbs_g": 1.0,
+            "fat_g": 1.5
+          }
+        }
+      ],
+      "standard_components": [
+        "xôi nếp vàng",
+        "đậu xanh đồ nhuyễn thái mỏng",
+        "mỡ gà rưới",
+        "hành phi giòn"
+      ]
+    },
+    {
+      "dish_id": "pho_bo_tai",
+      "dish_name": "Phở bò tái",
+      "dish_type": "soup_dish",
+      "description": "Bánh phở mềm mướt ngập trong nước dùng xương bò hầm thơm quế hồi, phủ thịt bò tươi chần tái hồng",
+      "tolerance_percentage": 20.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 650,
+        "calories": 510,
+        "macronutrients": {
+          "protein_g": 32.0,
+          "carbs_g": 68.0,
+          "fat_g": 11.0,
+          "fiber_g": 2.0
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_trung_tran",
+          "name": "Trứng chần nước dùng",
+          "additional_calories": 75,
+          "additional_macronutrients": {
+            "protein_g": 6.0,
+            "carbs_g": 0.5,
+            "fat_g": 5.5
+          }
+        },
+        {
+          "topping_id": "them_bo_vien",
+          "name": "Bò viên gân (2 viên)",
+          "additional_calories": 80,
+          "additional_macronutrients": {
+            "protein_g": 7.0,
+            "carbs_g": 2.0,
+            "fat_g": 5.0
+          }
+        },
+        {
+          "topping_id": "them_thit_bo",
+          "name": "Thêm thịt bò tái",
+          "additional_calories": 110,
+          "additional_macronutrients": {
+            "protein_g": 18.0,
+            "carbs_g": 0.0,
+            "fat_g": 3.5
+          }
+        },
+        {
+          "topping_id": "them_quay",
+          "name": "Quẩy giòn (2 chiếc)",
+          "additional_calories": 90,
+          "additional_macronutrients": {
+            "protein_g": 2.0,
+            "carbs_g": 12.0,
+            "fat_g": 4.0
+          }
+        },
+        {
+          "topping_id": "them_tiet",
+          "name": "Tiết bò luộc",
+          "additional_calories": 45,
+          "additional_macronutrients": {
+            "protein_g": 8.0,
+            "carbs_g": 0.5,
+            "fat_g": 0.5
+          }
+        }
+      ],
+      "standard_components": [
+        "bánh phở",
+        "thịt bò tái",
+        "nước dùng hầm xương",
+        "hành hoa",
+        "hành tây lát mỏng",
+        "ngò gai rau húng"
+      ]
+    },
+    {
+      "dish_id": "pho_bo_chin",
+      "dish_name": "Phở bò chín",
+      "dish_type": "soup_dish",
+      "description": "Bánh phở trong nước dùng hầm xương bò thanh ngọt, ăn cùng nạm, gầu hoặc bắp bò chín thái lát",
+      "tolerance_percentage": 20.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 650,
+        "calories": 540,
+        "macronutrients": {
+          "protein_g": 30.0,
+          "carbs_g": 68.0,
+          "fat_g": 14.0,
+          "fiber_g": 2.0
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_trung_tran",
+          "name": "Trứng gà chần",
+          "additional_calories": 75,
+          "additional_macronutrients": {
+            "protein_g": 6.0,
+            "carbs_g": 0.5,
+            "fat_g": 5.5
+          }
+        },
+        {
+          "topping_id": "them_bo_vien",
+          "name": "Bò viên (2 viên)",
+          "additional_calories": 80,
+          "additional_macronutrients": {
+            "protein_g": 7.0,
+            "carbs_g": 2.0,
+            "fat_g": 5.0
+          }
+        },
+        {
+          "topping_id": "them_gau_bo",
+          "name": "Thêm gầu bò giòn",
+          "additional_calories": 120,
+          "additional_macronutrients": {
+            "protein_g": 11.0,
+            "carbs_g": 0.0,
+            "fat_g": 8.5
+          }
+        },
+        {
+          "topping_id": "them_quay",
+          "name": "Quẩy ăn kèm (2 chiếc)",
+          "additional_calories": 90,
+          "additional_macronutrients": {
+            "protein_g": 2.0,
+            "carbs_g": 12.0,
+            "fat_g": 4.0
+          }
+        }
+      ],
+      "standard_components": [
+        "bánh phở",
+        "thịt bò nạm chín",
+        "nước dùng phở",
+        "hành hoa",
+        "hành tây",
+        "húng quế ngò gai"
+      ]
+    },
+    {
+      "dish_id": "pho_ga",
+      "dish_name": "Phở gà ta đùi xé",
+      "dish_type": "soup_dish",
+      "description": "Bánh phở mềm cùng nước dùng gà thanh ngọt óng mỡ vàng, thịt gà ta xé lá chanh thơm nức",
+      "tolerance_percentage": 20.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 620,
+        "calories": 480,
+        "macronutrients": {
+          "protein_g": 29.0,
+          "carbs_g": 66.0,
+          "fat_g": 10.0,
+          "fiber_g": 1.5
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_trung_non",
+          "name": "Trứng gà non (chùm nhỏ)",
+          "additional_calories": 80,
+          "additional_macronutrients": {
+            "protein_g": 7.0,
+            "carbs_g": 0.5,
+            "fat_g": 5.5
+          }
+        },
+        {
+          "topping_id": "them_thit_ga",
+          "name": "Thịt gà xé đĩa thêm",
+          "additional_calories": 95,
+          "additional_macronutrients": {
+            "protein_g": 15.0,
+            "carbs_g": 0.0,
+            "fat_g": 3.5
+          }
+        },
+        {
+          "topping_id": "them_tiet_ga",
+          "name": "Tiết gà luộc",
+          "additional_calories": 40,
+          "additional_macronutrients": {
+            "protein_g": 7.5,
+            "carbs_g": 0.5,
+            "fat_g": 0.5
+          }
+        },
+        {
+          "topping_id": "them_quay",
+          "name": "Quẩy giòn",
+          "additional_calories": 90,
+          "additional_macronutrients": {
+            "protein_g": 2.0,
+            "carbs_g": 12.0,
+            "fat_g": 4.0
+          }
+        }
+      ],
+      "standard_components": [
+        "bánh phở",
+        "thịt gà ta xé/chặt",
+        "nước dùng xương gà ninh",
+        "hành hoa lá chanh thái chỉ",
+        "hành tây lát"
+      ]
+    },
+    {
+      "dish_id": "bun_bo_hue",
+      "dish_name": "Bún bò Huế giò chả",
+      "dish_type": "soup_dish",
+      "description": "Bún sợi tròn to đặc trưng xứ Huế, nước dùng thơm lừng hương sả và mắm ruốc, kèm thịt bò bắp, khoanh giò heo, chả cua, huyết",
+      "tolerance_percentage": 20.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 700,
+        "calories": 620,
+        "macronutrients": {
+          "protein_g": 34.0,
+          "carbs_g": 65.0,
+          "fat_g": 23.0,
+          "fiber_g": 3.0
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_cha_cua",
+          "name": "Chả cua Huế",
+          "additional_calories": 85,
+          "additional_macronutrients": {
+            "protein_g": 6.5,
+            "carbs_g": 2.0,
+            "fat_g": 5.5
+          }
+        },
+        {
+          "topping_id": "them_mong_gio",
+          "name": "Khoanh móng giò heo",
+          "additional_calories": 150,
+          "additional_macronutrients": {
+            "protein_g": 13.0,
+            "carbs_g": 0.0,
+            "fat_g": 11.0
+          }
+        },
+        {
+          "topping_id": "them_cha_bo",
+          "name": "Chả bò cây",
+          "additional_calories": 80,
+          "additional_macronutrients": {
+            "protein_g": 7.0,
+            "carbs_g": 1.5,
+            "fat_g": 5.0
+          }
+        },
+        {
+          "topping_id": "them_huyet",
+          "name": "Huyết luộc",
+          "additional_calories": 40,
+          "additional_macronutrients": {
+            "protein_g": 7.5,
+            "carbs_g": 0.5,
+            "fat_g": 0.5
+          }
+        }
+      ],
+      "standard_components": [
+        "bún sợi to",
+        "thịt bò nạm/bắp",
+        "móng giò heo",
+        "chả cua/chả bò",
+        "huyết heo",
+        "nước dùng sả ruốc ớt màu",
+        "rau bắp chuối giá đỗ"
+      ]
+    },
+    {
+      "dish_id": "bun_rieu_cua",
+      "dish_name": "Bún riêu cua giò đậu chả",
+      "dish_type": "soup_dish",
+      "description": "Bún sợi nhỏ chan nước dùng riêu cua đồng chua dịu vị giấm bỗng và cà chua, kèm gạch riêu béo ngậy, đậu phụ rán, giò tai, huyết",
+      "tolerance_percentage": 20.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 650,
+        "calories": 530,
+        "macronutrients": {
+          "protein_g": 26.0,
+          "carbs_g": 64.0,
+          "fat_g": 18.0,
+          "fiber_g": 3.0
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_dau_ran",
+          "name": "Đậu phụ chiên mềm",
+          "additional_calories": 70,
+          "additional_macronutrients": {
+            "protein_g": 5.5,
+            "carbs_g": 1.5,
+            "fat_g": 5.0
+          }
+        },
+        {
+          "topping_id": "them_gio_heo",
+          "name": "Giò tai / Giò lụa",
+          "additional_calories": 80,
+          "additional_macronutrients": {
+            "protein_g": 7.0,
+            "carbs_g": 1.5,
+            "fat_g": 5.0
+          }
+        },
+        {
+          "topping_id": "them_oc",
+          "name": "Ốc nhồi xào",
+          "additional_calories": 60,
+          "additional_macronutrients": {
+            "protein_g": 9.5,
+            "carbs_g": 2.0,
+            "fat_g": 1.0
+          }
+        },
+        {
+          "topping_id": "them_huyet",
+          "name": "Huyết heo",
+          "additional_calories": 40,
+          "additional_macronutrients": {
+            "protein_g": 7.5,
+            "carbs_g": 0.5,
+            "fat_g": 0.5
+          }
+        }
+      ],
+      "standard_components": [
+        "bún tươi",
+        "riêu cua đồng",
+        "cà chua",
+        "đậu phụ chiên",
+        "nước dùng chua thanh giấm bỗng",
+        "rau muống chẻ kinh giới"
+      ]
+    },
+    {
+      "dish_id": "bun_moc",
+      "dish_name": "Bún mọc sườn sụn",
+      "dish_type": "soup_dish",
+      "description": "Bún nước dùng hầm xương trong ngọt ăn cùng mọc giò sống nấm hương mộc nhĩ, sườn non ninh mềm, chả quế",
+      "tolerance_percentage": 20.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 630,
+        "calories": 510,
+        "macronutrients": {
+          "protein_g": 28.0,
+          "carbs_g": 63.0,
+          "fat_g": 15.0,
+          "fiber_g": 2.5
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_suon",
+          "name": "Thịt sườn non",
+          "additional_calories": 120,
+          "additional_macronutrients": {
+            "protein_g": 12.0,
+            "carbs_g": 0.5,
+            "fat_g": 8.0
+          }
+        },
+        {
+          "topping_id": "them_moc",
+          "name": "Viên mọc nấm hương (3 viên)",
+          "additional_calories": 80,
+          "additional_macronutrients": {
+            "protein_g": 6.5,
+            "carbs_g": 1.5,
+            "fat_g": 5.5
+          }
+        },
+        {
+          "topping_id": "them_cha_que",
+          "name": "Chả quế thái lát",
+          "additional_calories": 70,
+          "additional_macronutrients": {
+            "protein_g": 5.5,
+            "carbs_g": 1.5,
+            "fat_g": 4.5
+          }
+        }
+      ],
+      "standard_components": [
+        "bún sợi",
+        "mọc giò nấm hương",
+        "sườn heo non",
+        "chả quế",
+        "nước dùng xương trong",
+        "hành hoa dọc mùng"
+      ]
+    },
+    {
+      "dish_id": "bun_ca",
+      "dish_name": "Bún cá chiên thì là",
+      "dish_type": "soup_dish",
+      "description": "Bún cá rô phi rán giòn rụm trong nước dùng chua ngọt thanh nhẹ từ dứa, cà chua và thì là ngập tràn",
+      "tolerance_percentage": 20.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 620,
+        "calories": 460,
+        "macronutrients": {
+          "protein_g": 27.0,
+          "carbs_g": 63.0,
+          "fat_g": 10.0,
+          "fiber_g": 2.5
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_ca_chien",
+          "name": "Miếng cá rán giòn",
+          "additional_calories": 95,
+          "additional_macronutrients": {
+            "protein_g": 12.0,
+            "carbs_g": 2.0,
+            "fat_g": 4.5
+          }
+        },
+        {
+          "topping_id": "them_cha_ca",
+          "name": "Chả cá chiên",
+          "additional_calories": 80,
+          "additional_macronutrients": {
+            "protein_g": 7.0,
+            "carbs_g": 3.0,
+            "fat_g": 4.5
+          }
+        },
+        {
+          "topping_id": "them_dau_ran",
+          "name": "Đậu phụ rán",
+          "additional_calories": 70,
+          "additional_macronutrients": {
+            "protein_g": 5.5,
+            "carbs_g": 1.5,
+            "fat_g": 5.0
+          }
+        }
+      ],
+      "standard_components": [
+        "bún sợi",
+        "cá rô phi chiên giòn",
+        "chả cá thì là",
+        "cà chua dọc mùng dứa",
+        "thì là hành hoa",
+        "nước dùng xương cá thanh"
+      ]
+    },
+    {
+      "dish_id": "hu_tieu_nam_vang",
+      "dish_name": "Hủ tiếu Nam Vang nước",
+      "dish_type": "soup_dish",
+      "description": "Hủ tiếu gạo dai ngập trong nước dùng xương ống hầm tôm khô và mực ngọt đậm đà, phủ thịt băm, tôm, gan heo, trứng cút",
+      "tolerance_percentage": 20.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 650,
+        "calories": 540,
+        "macronutrients": {
+          "protein_g": 28.0,
+          "carbs_g": 70.0,
+          "fat_g": 14.0,
+          "fiber_g": 2.5
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_tom",
+          "name": "Tôm tươi bóc vỏ",
+          "additional_calories": 45,
+          "additional_macronutrients": {
+            "protein_g": 9.5,
+            "carbs_g": 0.5,
+            "fat_g": 0.5
+          }
+        },
+        {
+          "topping_id": "them_gan_heo",
+          "name": "Gan heo luộc thái mỏng",
+          "additional_calories": 55,
+          "additional_macronutrients": {
+            "protein_g": 8.0,
+            "carbs_g": 1.5,
+            "fat_g": 1.5
+          }
+        },
+        {
+          "topping_id": "them_thit_bam",
+          "name": "Thịt heo nạc băm",
+          "additional_calories": 70,
+          "additional_macronutrients": {
+            "protein_g": 8.5,
+            "carbs_g": 0.5,
+            "fat_g": 3.5
+          }
+        },
+        {
+          "topping_id": "them_top_mo",
+          "name": "Tóp mỡ tỏi phi",
+          "additional_calories": 70,
+          "additional_macronutrients": {
+            "protein_g": 2.0,
+            "carbs_g": 0.5,
+            "fat_g": 7.0
+          }
+        }
+      ],
+      "standard_components": [
+        "hủ tiếu sợi dai",
+        "thịt nạc heo băm",
+        "tôm sú luộc",
+        "gan heo",
+        "trứng cút",
+        "nước dùng mực tôm khô",
+        "cần tàu hẹ giá đỗ",
+        "tỏi phi"
+      ]
+    },
+    {
+      "dish_id": "banh_canh_cua",
+      "dish_name": "Bánh canh cua chả cá",
+      "dish_type": "soup_dish",
+      "description": "Sợi bánh canh bột lọc dẻo dai bơi trong nước dùng sền sệt nấu từ gạch và thịt cua biển, tôm tươi, chả cá thác lác",
+      "tolerance_percentage": 20.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 600,
+        "calories": 490,
+        "macronutrients": {
+          "protein_g": 25.0,
+          "carbs_g": 66.0,
+          "fat_g": 12.0,
+          "fiber_g": 2.0
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_thit_cua",
+          "name": "Thịt cua xé",
+          "additional_calories": 70,
+          "additional_macronutrients": {
+            "protein_g": 13.0,
+            "carbs_g": 0.5,
+            "fat_g": 1.5
+          }
+        },
+        {
+          "topping_id": "them_cha_ca",
+          "name": "Chả cá thác lác chiên",
+          "additional_calories": 75,
+          "additional_macronutrients": {
+            "protein_g": 7.5,
+            "carbs_g": 2.0,
+            "fat_g": 4.0
+          }
+        },
+        {
+          "topping_id": "them_gio_heo",
+          "name": "Giò heo ninh mềm",
+          "additional_calories": 140,
+          "additional_macronutrients": {
+            "protein_g": 12.0,
+            "carbs_g": 0.0,
+            "fat_g": 10.0
+          }
+        },
+        {
+          "topping_id": "them_trung_cut",
+          "name": "Trứng cút (2 quả)",
+          "additional_calories": 40,
+          "additional_macronutrients": {
+            "protein_g": 3.0,
+            "carbs_g": 0.2,
+            "fat_g": 3.0
+          }
+        }
+      ],
+      "standard_components": [
+        "sợi bánh canh dai",
+        "thịt cua biển gỡ",
+        "tôm tươi",
+        "chả cá chiên",
+        "huyết heo",
+        "nước súp sệt cua màu hạt điều",
+        "hành ngò tiêu sọ"
+      ]
+    },
+    {
+      "dish_id": "banh_canh_gio_heo",
+      "dish_name": "Bánh canh giò heo huyết",
+      "dish_type": "soup_dish",
+      "description": "Sợi bánh canh gạo trắng tròn trong nước lèo ninh giò heo ngọt đậm, khoanh giò giòn sần sật, huyết luộc mềm",
+      "tolerance_percentage": 20.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 680,
+        "calories": 580,
+        "macronutrients": {
+          "protein_g": 32.0,
+          "carbs_g": 62.0,
+          "fat_g": 21.0,
+          "fiber_g": 2.0
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_cha_lua",
+          "name": "Chả lụa lát",
+          "additional_calories": 70,
+          "additional_macronutrients": {
+            "protein_g": 6.0,
+            "carbs_g": 1.0,
+            "fat_g": 4.5
+          }
+        },
+        {
+          "topping_id": "them_khoanh_gio",
+          "name": "Thêm khoanh giò heo",
+          "additional_calories": 160,
+          "additional_macronutrients": {
+            "protein_g": 14.0,
+            "carbs_g": 0.0,
+            "fat_g": 11.5
+          }
+        },
+        {
+          "topping_id": "them_huyet",
+          "name": "Huyết heo luộc",
+          "additional_calories": 40,
+          "additional_macronutrients": {
+            "protein_g": 7.5,
+            "carbs_g": 0.5,
+            "fat_g": 0.5
+          }
+        }
+      ],
+      "standard_components": [
+        "sợi bánh canh bột gạo",
+        "khoanh giò heo",
+        "huyết heo",
+        "nước súp ninh xương ống",
+        "hành phi hành lá ngò gai",
+        "nước mắm ớt chanh"
+      ]
+    },
+    {
+      "dish_id": "mi_quang",
+      "dish_name": "Mì Quảng tôm thịt trứng cút",
+      "dish_type": "soup_dish",
+      "description": "Sợi mì Quảng vàng dẹp, nước lèo chan xâm xấp đậm đà tôm rim ba chỉ, trứng cút, rắc đậu phộng rang giòn và bánh tráng mè nướng",
+      "tolerance_percentage": 20.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 500,
+        "calories": 550,
+        "macronutrients": {
+          "protein_g": 28.0,
+          "carbs_g": 65.0,
+          "fat_g": 18.0,
+          "fiber_g": 3.0
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_banh_trang_me",
+          "name": "Bánh tráng mè nướng",
+          "additional_calories": 60,
+          "additional_macronutrients": {
+            "protein_g": 1.5,
+            "carbs_g": 11.0,
+            "fat_g": 1.0
+          }
+        },
+        {
+          "topping_id": "them_dau_phong",
+          "name": "Đậu phộng rang",
+          "additional_calories": 50,
+          "additional_macronutrients": {
+            "protein_g": 2.0,
+            "carbs_g": 1.5,
+            "fat_g": 4.0
+          }
+        },
+        {
+          "topping_id": "them_thit_ba_chi",
+          "name": "Thịt ba chỉ rim",
+          "additional_calories": 90,
+          "additional_macronutrients": {
+            "protein_g": 6.5,
+            "carbs_g": 1.0,
+            "fat_g": 6.5
+          }
+        },
+        {
+          "topping_id": "them_tom",
+          "name": "Tôm rim mặn ngọt",
+          "additional_calories": 45,
+          "additional_macronutrients": {
+            "protein_g": 9.5,
+            "carbs_g": 0.5,
+            "fat_g": 0.5
+          }
+        }
+      ],
+      "standard_components": [
+        "sợi mì Quảng nghệ",
+        "tôm rim thịt ba chỉ",
+        "trứng cút rim",
+        "nước nhưn xâm xấp",
+        "bánh tráng mè giòn",
+        "đậu phộng giã dập",
+        "rau sống búp chuối"
+      ]
+    },
+    {
+      "dish_id": "canh_chua_ca_loc",
+      "dish_name": "Canh chua cá lóc kèm cơm trắng",
+      "dish_type": "soup_dish",
+      "description": "Tô canh chua cá lóc nấu me, bạc hà, dứa, đậu bắp, giá đỗ kèm chén cơm trắng dẻo thơm",
+      "tolerance_percentage": 20.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 600,
+        "calories": 490,
+        "macronutrients": {
+          "protein_g": 28.0,
+          "carbs_g": 70.0,
+          "fat_g": 9.0,
+          "fiber_g": 3.5
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_ca_loc",
+          "name": "Thêm khứa cá lóc",
+          "additional_calories": 110,
+          "additional_macronutrients": {
+            "protein_g": 20.0,
+            "carbs_g": 0.0,
+            "fat_g": 2.5
+          }
+        },
+        {
+          "topping_id": "them_com_trang",
+          "name": "Chén cơm trắng thêm",
+          "additional_calories": 150,
+          "additional_macronutrients": {
+            "protein_g": 3.0,
+            "carbs_g": 33.0,
+            "fat_g": 0.3
+          }
+        }
+      ],
+      "standard_components": [
+        "cá lóc khứa",
+        "nước me chua dịu",
+        "dứa đậu bắp cà chua",
+        "bạc hà giá đỗ",
+        "ngò om ngò gai",
+        "tỏi phi",
+        "chén cơm trắng"
+      ]
+    },
+    {
+      "dish_id": "goi_cuon_tom_thit",
+      "dish_name": "Gỏi cuốn tôm thịt",
+      "dish_type": "snack",
+      "description": "3 cuốn gỏi bánh tráng mỏng cuốn tôm tươi luộc, thịt ba chỉ luộc, bún tươi, hẹ và rau thơm chấm tương đậu béo",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 270,
+        "calories": 320,
+        "macronutrients": {
+          "protein_g": 17.0,
+          "carbs_g": 45.0,
+          "fat_g": 6.0,
+          "fiber_g": 2.5
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_1_cuon",
+          "name": "Thêm 1 cuốn gỏi",
+          "additional_calories": 90,
+          "additional_macronutrients": {
+            "protein_g": 5.0,
+            "carbs_g": 13.0,
+            "fat_g": 1.8
+          }
+        },
+        {
+          "topping_id": "them_sot_tuong_den",
+          "name": "Thêm chén tương đậu phộng",
+          "additional_calories": 60,
+          "additional_macronutrients": {
+            "protein_g": 2.0,
+            "carbs_g": 6.0,
+            "fat_g": 3.0
+          }
+        }
+      ],
+      "standard_components": [
+        "bánh tráng dẻo",
+        "tôm luộc bổ đôi",
+        "thịt ba chỉ luộc",
+        "bún tươi",
+        "hẹ tươi",
+        "rau thơm xà lách",
+        "tương đen đậu phộng"
+      ]
+    },
+    {
+      "dish_id": "nem_ran_ha_noi",
+      "dish_name": "Nem rán Hà Nội / Chả giò",
+      "dish_type": "snack",
+      "description": "4 cuốn nem rán giòn vỏ bánh đa nem bọc nhân thịt nạc băm, tôm, miến dong, mộc nhĩ, cà rốt, trứng ăn kèm rau sống chấm mắm nhạt",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 260,
+        "calories": 470,
+        "macronutrients": {
+          "protein_g": 20.0,
+          "carbs_g": 44.0,
+          "fat_g": 22.0,
+          "fiber_g": 2.0
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_1_nem",
+          "name": "Thêm 1 chiếc nem rán",
+          "additional_calories": 95,
+          "additional_macronutrients": {
+            "protein_g": 4.5,
+            "carbs_g": 8.0,
+            "fat_g": 5.0
+          }
+        },
+        {
+          "topping_id": "them_bun_dia",
+          "name": "Thêm đĩa bún sợi",
+          "additional_calories": 80,
+          "additional_macronutrients": {
+            "protein_g": 1.8,
+            "carbs_g": 18.0,
+            "fat_g": 0.2
+          }
+        }
+      ],
+      "standard_components": [
+        "vỏ bánh đa nem giòn",
+        "thịt nạc heo băm",
+        "miến dong mộc nhĩ nấm hương",
+        "trứng gà cà rốt su hào",
+        "nước mắm chua ngọt đu đủ",
+        "rau xà lách mùi ta"
+      ]
+    },
+    {
+      "dish_id": "banh_trang_tron",
+      "dish_name": "Bánh tráng trộn khô bò mực rim",
+      "dish_type": "snack",
+      "description": "Bánh tráng cắt sợi trộn muối tôm Tây Ninh, khô bò đỏ, khô mực, trứng cút luộc, xoài xanh băm sợi, rau răm và mỡ hành đậu phộng",
+      "tolerance_percentage": 12.0,
+      "base_portion": {
+        "size": "standard",
+        "weight_gram": 180,
+        "calories": 380,
+        "macronutrients": {
+          "protein_g": 12.0,
+          "carbs_g": 58.0,
+          "fat_g": 11.0,
+          "fiber_g": 2.5
+        }
+      },
+      "portion_coefficients": {
+        "small": 0.8,
+        "standard": 1.0,
+        "large": 1.3
+      },
+      "toppings": [
+        {
+          "topping_id": "them_trung_cut",
+          "name": "Trứng cút luộc (2 quả)",
+          "additional_calories": 40,
+          "additional_macronutrients": {
+            "protein_g": 3.0,
+            "carbs_g": 0.2,
+            "fat_g": 3.0
+          }
+        },
+        {
+          "topping_id": "them_bo_kho",
+          "name": "Khô bò đỏ xé sợi",
+          "additional_calories": 50,
+          "additional_macronutrients": {
+            "protein_g": 7.0,
+            "carbs_g": 2.5,
+            "fat_g": 1.0
+          }
+        },
+        {
+          "topping_id": "them_dau_phong",
+          "name": "Đậu phộng rang",
+          "additional_calories": 45,
+          "additional_macronutrients": {
+            "protein_g": 1.8,
+            "carbs_g": 1.2,
+            "fat_g": 3.8
+          }
+        }
+      ],
+      "standard_components": [
+        "bánh tráng sợi mềm",
+        "muối tôm tắc đường",
+        "khô bò khô mực",
+        "trứng cút",
+        "xoài xanh băm sợi",
+        "rau răm hành phi",
+        "đậu phộng rang mỡ hành"
+      ]
+    }
+  ]
+}
+

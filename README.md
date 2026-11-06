@@ -9,7 +9,8 @@ Dự án nghiên cứu và xây dựng pipeline trích xuất thông tin dinh d�
 ```text
 Nutri_Sync/
 ├── docs/                                # Tài liệu dự án & nghiên cứu
-│   └── PRD_NutriSync_Phase1.md          # Tài liệu yêu cầu sản phẩm (PRD) chi tiết
+│   ├── PRD_NutriSync_Phase1.md          # Tài liệu yêu cầu sản phẩm (PRD) chi tiết
+│   └── BACKLOG_v1.md                    # Backlog và danh sách task triển khai chi tiết
 │
 ├── backend/                             # Dịch vụ Backend (FastAPI)
 │   ├── app/
@@ -32,5 +33,6 @@ Nutri_Sync/
 ```
 
 ## Tài liệu chi tiết
-Vui lòng tham khảo tài liệu yêu cầu sản phẩm đầy đủ tại: **[PRD_NutriSync_Phase1.md](docs/PRD_NutriSync_Phase1.md)**.
+- **[Tài liệu Yêu cầu Sản phẩm (PRD)](docs/PRD_NutriSync_Phase1.md)**: Chi tiết bài toán, phạm vi, kiến trúc hệ thống và chỉ số nghiệm thu.
+- **[Backlog Triển khai v1 (Backlog & Tasks)](docs/BACKLOG_v1.md)**: Danh sách công việc phân rã theo 5 giai đoạn, tiêu chí hoàn thành (DoD) và ma trận ưu tiên.
 
