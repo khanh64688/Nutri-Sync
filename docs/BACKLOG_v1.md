@@ -12,8 +12,8 @@
 
 | Giai đoạn (Milestone) | Trọng tâm công việc | Số lượng Task | Thời gian dự kiến | Trạng thái |
 | :--- | :--- | :---: | :---: | :---: |
-| **Giai đoạn 0 (Sprint 1)** | Dữ liệu Dinh dưỡng Tham chiếu & Bộ ảnh Benchmark | 3 Tasks | Tuần 1 | `[>] Đang triển khai (2/3 hoàn thành)` |
-| **Giai đoạn 1 (Sprint 2)** | AI Core, Pydantic Schema & Prompt Engineering | 4 Tasks | Tuần 2 | `[ ] Chưa bắt đầu` |
+| **Giai đoạn 0 (Sprint 1)** | Dữ liệu Dinh dưỡng Tham chiếu & Bộ ảnh Benchmark | 3 Tasks | Tuần 1 | `[x] Hoàn thành (3/3)` |
+| **Giai đoạn 1 (Sprint 2)** | AI Core, Pydantic Schema & Prompt Engineering | 4 Tasks | Tuần 2 | `[>] Sẵn sàng triển khai` |
 | **Giai đoạn 2 (Sprint 3)** | Xây dựng Backend Pipeline (FastAPI) & Resolver | 5 Tasks | Tuần 3 | `[ ] Chưa bắt đầu` |
 | **Giai đoạn 3 (Sprint 4)** | Xây dựng Frontend Mobile Web & Human-in-the-Loop | 4 Tasks | Tuần 4 | `[ ] Chưa bắt đầu` |
 | **Giai đoạn 4 (Sprint 5)** | Chạy Thực nghiệm, Đo Sai số & Đóng gói Báo cáo | 3 Tasks | Tuần 5 | `[ ] Chưa bắt đầu` |
@@ -24,7 +24,7 @@
 
 ---
 
-### GIAI ĐOẠN 0: DỮ LIỆU THAM CHIẾU & BENCHMARK (DATA FOUNDATION)
+### GIAI ĐOẠN 0: DỮ LIỆU THAM CHIẾU & BENCHMARK (DATA FOUNDATION) - `[x] Hoàn thành (3/3)`
 > **Mục tiêu:** Tạo "thước đo chuẩn" (Ground Truth) để thẩm định độ chính xác của AI ngay từ đầu, tránh tình trạng phát triển xong nhưng không có căn cứ đánh giá.
 
 #### - [x] `TASK-0.1`: Chuẩn hóa danh mục 30 món ăn Việt Nam & lập bảng FCT
@@ -36,7 +36,7 @@
 * **Thời gian ước tính:** 2 ngày.
 * **Phụ thuộc:** Không.
 
-#### - [ ] `TASK-0.2`: Thu thập bộ dữ liệu kiểm thử (Ground Truth Dataset)
+#### - [x] `TASK-0.2`: Thu thập bộ dữ liệu kiểm thử (Ground Truth Dataset)
 * **Mô tả:** Thu thập tập 60 ảnh thực tế (khoảng 2 ảnh/món với các góc chụp khác nhau: 45 độ và 90 độ thẳng đứng). Cân đo khối lượng thực tế từng món ăn bằng cân tiểu ly điện tử.
 * **Đầu ra (Deliverable):** 
   - Thư mục ảnh `evaluation/dataset/images/` (60 ảnh).
